@@ -1,0 +1,155 @@
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        background: linear-gradient(135deg, #dfe9f3, #ffffff);
+        color: #333;
+    }
+    .dashboard-title {
+        padding: 20px;
+        font-size: 24px;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px;
+        gap: 20px;
+    }
+    .left, .right {
+        flex: 1;
+        min-width: 300px;
+        max-width: 500px;
+        padding: 25px;
+        background: rgba(255,255,255,0.85);
+        backdrop-filter: blur(12px);
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .left:hover, .right:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 32px rgba(0,0,0,0.15);
+    }
+    h2 {
+        margin-bottom: 15px;
+        color: #444;
+    }
+    .message {
+        padding: 12px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        background: #e0ffe0;
+        color: #2e7d32;
+        font-weight: 500;
+    }
+    .classSelect, input[type="text"], input[type="number"], button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 15px;
+        transition: border 0.3s, box-shadow 0.3s;
+        box-sizing: border-box;
+    }
+    .classSelect:focus, input[type="text"]:focus, input[type="number"]:focus {
+        border: 1px solid #667eea;
+        box-shadow: 0 0 8px rgba(102,126,234,0.3);
+        outline: none;
+    }
+    button {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+    }
+    button:hover {
+        background: linear-gradient(135deg, #5a67d8, #6b46c1);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102,126,234,0.4);
+    }
+    .batch-count {
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #444;
+    }
+    .batch-list ul {
+        list-style: none;
+        padding: 0;
+    }
+    .batch-list li {
+        background: rgba(255,255,255,0.85);
+        backdrop-filter: blur(8px);
+        padding: 12px;
+        margin-bottom: 10px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .batch-list li:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+    .edit-btn, .save-btn, .cancel-btn {
+        padding: 6px 12px;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+        margin-left: 5px;
+    }
+    .edit-btn {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+        width: 90px;
+        margin-left: 30px;
+    }
+    .edit-btn:hover {
+        background: linear-gradient(135deg, #5a67d8, #6b46c1);
+        transform: translateY(-1px);
+        box-shadow: 0 3px 8px rgba(102,126,234,0.4);
+    }
+    .save-btn {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+    }
+    .save-btn:hover {
+        background: linear-gradient(135deg, #5a67d8, #6b46c1);
+        transform: translateY(-1px);
+        box-shadow: 0 3px 8px rgba(72,187,120,0.4);
+    }
+    .cancel-btn {
+        background: linear-gradient(135deg, #a0aec0, #718096);
+        color: white;
+    }
+    .cancel-btn:hover {
+        background: linear-gradient(135deg, #718096, #4a5568);
+        transform: translateY(-1px);
+        box-shadow: 0 3px 8px rgba(113,128,150,0.4);
+    }
+    input.inline-input {
+        padding: 6px 8px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+        width: 22%;
+        margin: 2px;
+        transition: border 0.3s, box-shadow 0.3s;
+    }
+    input.inline-input:focus {
+        border: 1px solid #667eea;
+        box-shadow: 0 0 6px rgba(102,126,234,0.3);
+        outline: none;
+    }

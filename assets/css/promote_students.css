@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+    padding: 30px;
+}
+.container {
+    max-width: 480px;
+    margin: auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+select, button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 15px;
+}
+button {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+button:hover {
+background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+.message, .error {
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.message {
+    background-color: #d4edda;
+    color: #155724;
+}
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.download-link {
+    text-align: center;
+    margin-top: 10px;
+}
+.download-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.download-link a:hover {
+    text-decoration: underline;
+}

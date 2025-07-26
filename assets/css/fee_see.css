@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    padding: 20px;
+}
+.container {
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    padding: 30px;
+    max-width: 1000px;
+}
+h2, h5 {
+    color: #2a4365;
+    font-weight: 600;
+}
+.form-select, .btn, .table {
+    border-radius: 10px;
+}
+.form-select:focus, .btn:focus {
+    box-shadow: 0 0 0 4px rgba(72, 187, 255, 0.3);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #5a67d8, #6b46c1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102,126,234,0.4);
+}
+
+.table {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+.table th {
+    background: linear-gradient(135deg, #ebf8ff, #bee3f8);
+    color: #2a4365;
+    font-weight: 600;
+}
+.student-photo {
+    width: 70px; height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #3182ce;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.alert {
+    border-radius: 10px;
+}
+@media (max-width: 600px) {
+    .student-photo { width: 50px; height: 50px; }
+}

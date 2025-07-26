@@ -1,0 +1,126 @@
+ body {
+    margin: 0;
+    padding: 30px;
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+  }
+
+  .card-box {
+    border: 2px solid #ffffff55;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    min-height: 140px;
+    background-clip: padding-box;
+  }
+
+  .card-box:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.2);
+  }
+
+  .card-body h5 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+
+  .card-body h2 {
+    font-size: 33px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+
+  .icon-wrap {
+    font-size: 50px;
+    opacity: 0.2;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+  }
+
+  .bg-gradient-blue {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+  }
+
+  .bg-gradient-green {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+  }
+
+  .bg-gradient-orange {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+  }
+
+  .bg-gradient-pink {
+    background: linear-gradient(135deg, #f953c6, #b91d73);
+  }
+
+  .bg-gradient-purple {
+    background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  }
+
+  .dashboard-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .dashboard-row .card-box {
+  flex: 1 0 calc(25% - 20px);
+    min-width: 200px;
+    max-width: 245px;
+    margin-right: auto;
+  }
+
+  .table-container {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    padding: 25px;
+    color: #333;
+  }
+
+  .table-container h4 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+  }
+
+  table {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .table thead {
+    background: #f0f2f5;
+  }
+
+  .table tbody tr:hover {
+    background: #f8f9fa;
+    transition: background 0.3s ease;
+  }
+
+  @media (max-width: 992px) {
+    .dashboard-row .card-box {
+      flex: 1 0 calc(70% - 20px);
+      align-content: center;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .dashboard-row .card-box {
+      flex: 1 0 100%;
+    }
+  }

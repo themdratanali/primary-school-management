@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+}
+.container-flex {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.admit-container {
+    width: 750px;
+    background: white;
+    position: relative;
+}
+#admitCard {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 1050px; /* A4 fit */
+    box-sizing: border-box;
+    page-break-inside: avoid;
+    padding-top: 10px;
+}
+.watermark {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    opacity: 0.05;
+    transform: translate(-60%, -60%) rotate(0deg);
+    width: 70%;
+    pointer-events: none;
+    z-index: 0;
+}
+.watermark img {
+    width: 100%;
+    height: auto;
+}
+.card-border {
+  margin: 5px;
+  padding: 10px 40px 10px 40px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.header-center {
+    text-align: center;
+}
+.header-center h2 {
+    margin: 0;
+}
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+    text-decoration: underline;
+}
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 8px;
+}
+.info-table td {
+    padding: 4px 8px;
+    vertical-align: top;
+    width: 50%;
+    font-size: 13px;
+}
+.info-table strong {
+    display: inline-block;
+    width: 150px;
+}
+.download-btn {
+    display: inline-block;
+    margin: 10px auto 20px auto;
+    padding: 8px 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+.download-btn:hover {
+    background: #0056b3;
+}
+.signature{
+    margin-top: 200px;
+    display: flex;
+}
+
+@media print {
+    .download-btn { display: none; }
+    body { background: white; margin: 0; }
+    .admit-container { box-shadow: none; }
+}

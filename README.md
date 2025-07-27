@@ -44,4 +44,9 @@ Handle fee collection, track due payments, and generate payment receipts.
 - **Database**: MySQL  
 
 ---
+<p align="center">
+  <img src="ratan.jpg" alt="Md. Ratan Ali" width="150" style="border-radius: 50%;" />
+</p>
 
+<h2 align="center">Md. Ratan Ali</h2>
+<p align="center"><em>Founder of 5World | Full-Stack Developer | Tech Educator</em></p>

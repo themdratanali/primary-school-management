@@ -44,9 +44,15 @@ Handle fee collection, track due payments, and generate payment receipts.
 - **Database**: MySQL  
 
 ---
+
+## Developer
 <p align="center">
-  <img src="ratan.jpg" alt="Md. Ratan Ali" width="150" style="border-radius: 50%;" />
+  <img src="https://mdratanali.com/wp-content/uploads/2025/07/mdratanali.png" alt="Md. Ratan Ali" width="150" style="border-radius: 50%;" />
 </p>
 
 <h2 align="center">Md. Ratan Ali</h2>
-<p align="center"><em>Founder of 5World | Full-Stack Developer | Tech Educator</em></p>
+<p align="center"><em>Founder & CEO at Deppol – A Global Tech Agency | Web Developer & Graphic Designer | Top-Rated Freelancer</em></p>
+<p align="center">
+  🌐 <a href="https://mdratanali.com/" target="_blank">mdratanali.com</a> • 
+  📧 <a href="mailto:your-email@example.com">hello@mdratanali.com</a>
+</p>

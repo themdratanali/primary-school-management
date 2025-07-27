@@ -47,7 +47,7 @@ Handle fee collection, track due payments, and generate payment receipts.
 
 ## Developer
 <p align="center">
-  <img src="https://mdratanali.com/wp-content/uploads/2025/07/mdratanali.png" alt="Md. Ratan Ali" width="150" style="border-radius: 50%;" />
+  <img src="https://avatars.githubusercontent.com/u/195799301?s=400&u=a2361630c2cfe6c1bb7d6e409c8b50e616de1ebf&v=4" alt="Md. Ratan Ali" width="150" style="border-radius: 50%;" />
 </p>
 
 <h2 align="center">Md. Ratan Ali</h2>
